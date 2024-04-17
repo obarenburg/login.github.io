@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap");
 
+h2{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .loginbackground{
     font-family: "Quicksand", sans-serif;
     background-size:cover;
@@ -159,14 +169,4 @@ li a {
 .show{
     transition: all 1s;
     display: flex;
-}
-
-h2{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h3{
-    margin-left: auto;
-    margin-right: auto;
 }
