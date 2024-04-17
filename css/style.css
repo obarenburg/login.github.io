@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap");
+
+.loginbackground{
+    font-family: "Quicksand", sans-serif;
+    background-size:cover;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.pagebackground{
+    font-family: "Quicksand", sans-serif;
+    background-size:cover;
+    margin: 0;
+    background-color: #008CBA
+}
+
+h1{
+    text-align: center;
+}
+
+.centered{
+    padding-top: 5;
+    align-items: center;
+    justify-content: center;
+}
+
+.but{
+    align-items: center;
+    justify-content: center;
+    background-color: #008CBA;
+    border: none;
+    text-align: center;
+    font-size: 3vh;
+    border-radius: 5px;
+    padding: .5em;
+    transition: all .5s;
+    width: 15vw;
+    height: 7vh;
+    cursor: pointer;
+}
+
+#water{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+}
+
+.but:hover{
+    scale: 1.1;
+}
+
+#pass{
+    text-align: center;
+    justify-content: center;
+
+}
+
+.wrapper{
+    margin: auto;
+    margin-top: 10vh;
+    width: 60%;
+    height: 60vh;
+    background-color: white;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    transition: all 2s;
+}
+
+.fill{
+    background-color: #008CBA;
+    color: #008CBA;
+    border: none;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 5px;
+    padding: .5em;
+    transform: scale(20);
+}
+
+.none{
+    display: none;
+}
+
+form {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0em;
+    width: 90%;
+    height: 90%;
+    justify-content: center;
+}
+
+input[type=text] {
+    margin: auto;
+    margin-top: 1em;
+    padding-left: .75em;
+    background-color: #eee;
+    border: none;
+    border-radius: .2em;
+    border-bottom: 1px solid #000;
+    width: 70%;
+    height: 50%;
+    font-size: 1.5em;
+}
+
+.main{
+    opacity: 0;
+    transition: all 2s;
+}
+
+.main-shown{
+    opacity: 1;
+    margin: auto;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    transition: all 2s;
+}
+
+ul{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 2em;
+}
+
+li a {
+    background-color: rgb(30, 14, 119);
+    border-radius: .5em;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.main-shown img {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spin, .ikea, .swim, .rotate{
+    transition: all 1s;
+    display: none;
+}
+
+.show{
+    transition: all 1s;
+    display: flex;
+}

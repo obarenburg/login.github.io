@@ -5,12 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="./js/script.js"></script>
 </head>
-<body>
-    <h1>Super Secret Website</h1>
-    <button onclick="myFunction()">_ _ _ _ _</button>
-    
-    <p id="demo"></p>
+<body class="loginbackground">
+    <div class="wrapper">
+        <h1 class="centered">Super Secret Website</h1>
+        <img id="water" src="/images/shark.jpg" alt="Underwater" height="40%" width="40%">
+        <div id="pass">
+            <form method="post" onsubmit="return validateForm()">
+                <input type="text" id="name" class="project-fade" name="name" placeholder="Name: "></input>
+            </form>
+            <button class="but">Password</button>
+        </div>
+    </div>
+    <div class="main">
+        <h1 class="centered">Super Secret Shark Website</h1>
+        <ul>
+            <li><a class="spin-but" href="#home">Classic</a></li>
+            <li><a class="ikea-but" href="#news">BLÅHAJ</a></li>
+            <li><a class="swim-but" href="#contact">Groovin</a></li>
+            <li><a class="rotate-but" href="#about">Rotated</a></li>
+        </ul>
+        <img class="spin" src="images/smallshark2.gif" width="30%" alt="Spinning shark">
+        <img class="ikea" src="images/blahaj.gif" width="10%" alt="Spinning ikea shark">
+        <img class="swim" src="images/linear.gif" width="20%" alt="Swimming shark">
+        <img class="rotate" src="images/rotates.gif" width="20%" alt="Shark gets rotated">
+        <!-- <div id="sharks">
+            
+        </div> -->
+    </div>
 </body>
 </html>
+<script src="js/script.js"></script>
