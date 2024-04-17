@@ -160,3 +160,13 @@ li a {
     transition: all 1s;
     display: flex;
 }
+
+h2{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -26,7 +26,7 @@ login.addEventListener("click", () => {
         setTimeout(function (){
             main.classList.toggle("main-shown");
         }, 2100);
-    } 
+    }
     else {
         curSlot = 0;
     }
